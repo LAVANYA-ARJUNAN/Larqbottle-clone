@@ -1,5 +1,5 @@
 import pic1 from '../Images/black.png'
-import {HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
+
 import pic2 from '../Images/BDMB050A.png'
 import pic3 from '../Images/PAMB190A.png'
 import pic4 from '../Images/BNWLL068A.png'
@@ -25,9 +25,7 @@ import access15 from '../Images/access15.webp'
 import access16 from '../Images/access16.webp'
 import access17 from '../Images/access17.webp'
 import access18 from '../Images/BABHNNA-4.png'
-import bottle from '../Images/bottles.jpg'
-import access from '../Images/accessories.jpg'
-import pitcher from '../Images/pitchers.jpg'
+
 import { Link } from 'react-router-dom'
     const Bottles=()=>{
         const botle=[
@@ -282,7 +280,7 @@ return(
                         {
                             botle.map((product)=>(
                                 <div key={product.id} className='col-lg-12'style={{margin:"30px 30px",borderRadius:"40px 40px",backgroundColor:"rgba(247, 230, 246, 0.42)",height:"450px",width:"400px"}}>
-                                 <Link style={{textDecoration:'none',color:"black"}}>   <div style={{backgroundColor:"aliceblue",borderRadius:"40px 40px 0px 0px"}}><img src={product.img} width={300}></img></div>
+                                 <Link style={{textDecoration:'none',color:"black"}}>   <div style={{backgroundColor:"aliceblue",borderRadius:"40px 40px 0px 0px"}}><img src={product.img} width={300} alt='bot'></img></div>
                                     <h4>{product.title}</h4>
                                     <div>{product.inform}</div>
                                     <div >{product.inform1}</div>
@@ -296,7 +294,7 @@ return(
                         {
                             bot.map((products)=>(
                                 <div key={products.id} className='col-lg-12'style={{margin:"30px 30px",borderRadius:"40px 40px",backgroundColor:"rgba(247, 230, 246, 0.42)",height:"450px",width:"400px"}} >
-                                  <Link style={{textDecoration:'none',color:"black"}}>  <div style={{backgroundColor:"aliceblue" ,borderRadius:"40px 40px 0px 0px"}}><img src={products.img} width={300}></img></div>
+                                  <Link style={{textDecoration:'none',color:"black"}}>  <div style={{backgroundColor:"aliceblue" ,borderRadius:"40px 40px 0px 0px"}}><img src={products.img} width={300} alt='bot'></img></div>
                                     <h4 >{products.title}</h4>
                                     <div >{products.inform}</div>
                                     <div >{products.inform1}</div>
@@ -314,7 +312,7 @@ return(
                         {
                             accessories.map((products)=>(
                                 <div key={products.id} className='col-lg-12'style={{margin:"30px 30px",borderRadius:"40px 40px",backgroundColor:"rgba(247, 230, 246, 0.42)",height:"450px",width:"400px"}} >
-                                  <Link style={{textDecoration:'none',color:"black"}}>  <div style={{backgroundColor:"aliceblue" ,borderRadius:"40px 40px 0px 0px"}}><img src={products.img} width={300}></img></div>
+                                  <Link style={{textDecoration:'none',color:"black"}}>  <div style={{backgroundColor:"aliceblue" ,borderRadius:"40px 40px 0px 0px"}}><img src={products.img} width={300} alt='bot'></img></div>
                                     <h4>{products.title}</h4>
                                     <div >{products.inform}</div>
                                     <div >{products.inform1}</div>
@@ -328,7 +326,7 @@ return(
                         {
                             accessories2.map((products)=>(
                                 <div key={products.id} className='col-lg-12'style={{margin:"30px 30px",borderRadius:"40px 40px",backgroundColor:"rgba(247, 230, 246, 0.42)",height:"450px",width:"400px"}} >
-                                  <Link style={{textDecoration:'none',color:"black"}}>  <div style={{backgroundColor:"aliceblue" ,borderRadius:"40px 40px 0px 0px"}}><img src={products.img} width={300}></img></div>
+                                  <Link style={{textDecoration:'none',color:"black"}}>  <div style={{backgroundColor:"aliceblue" ,borderRadius:"40px 40px 0px 0px"}}><img src={products.img} width={300}alt='bot'></img></div>
                                     <h4 >{products.title}</h4>
                                     <div >{products.inform}</div>
                                     <div >{products.inform1}</div>

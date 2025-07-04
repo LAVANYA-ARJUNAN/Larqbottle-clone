@@ -6,7 +6,7 @@ const Cart=()=>{
     const dispatch=useDispatch();
      
     const deleteCart=(item)=>{
-        dispatch(deleteFromCart)
+        dispatch(deleteFromCart(item))
     }
     const incrementCart=(id,quantity)=>{
         
