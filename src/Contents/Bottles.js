@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import {HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 import pic1 from '../Images/black.png'
 import pic2 from '../Images/BDMB050A.png'
 import pic3 from '../Images/PAMB190A.png'

@@ -178,9 +178,9 @@ return(
       </Swiper>
       <br></br><br></br>
 
-      <marquee style={{color:"darkblue"}}><h3><b>How many sips does it take to be amazing? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hydrate or die-drate . &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#DrinkBrilliantly
+      <p style={{color:"darkblue"}}><h3><b>How many sips does it take to be amazing? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hydrate or die-drate . &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#DrinkBrilliantly
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friends don’t let friends dehydrate. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#DrinkBrilliantly
-</b></h3></marquee>
+</b></h3></p>
       <br></br>
       <br></br>
             </div>

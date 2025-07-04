@@ -19,7 +19,7 @@ const Technology = () => {
                 <h1 style={{lineHeight:"50px"}}><b>Nano Zero filter technology</b></h1>
                 <h5 style={{lineHeight:"30px"}}>A new age of filtration is here. Enjoy crisp drinking water at home and on the go.</h5>
             </div>
-            <div className='col-5' style={{marginLeft:"-20px",marginTop:"50px"}}><img src={access1} width={300}></img></div>
+            <div className='col-5' style={{marginLeft:"-20px",marginTop:"50px"}}><img src={access1} width={300} alt='tech'></img></div>
             <br></br><br></br>
             <div className='col-3' style={{position:"relative",top:"-350px",marginLeft:"800px"}}>
                 <h5><b>Pure-tasting water</b></h5>
@@ -36,23 +36,23 @@ const Technology = () => {
       </div>
       <div className='container' style={{display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>
           <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic2} width={200} style={{border:"1px solid black"}}></img>
+          <img src={pic2} width={200} style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Bottle PureVis™2</p>
           </Link>
           <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic6} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic6} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Bottle Filter Straw</p>
           </Link>
           <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic3} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic3} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Pitcher</p>
           </Link>
            <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic4} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic4} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Bottle Filtered Swig</p>
           </Link>
            <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic5} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic5} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Bottle Filtered Flip</p>
           </Link>
            
@@ -64,7 +64,7 @@ const Technology = () => {
                 <h1 style={{lineHeight:"50px"}}><b>PureVis™ technology</b></h1>
                 <h5 style={{lineHeight:"30px"}}>Proprietary PureVis™ technology improves the quality of your water at home and on the go.</h5>
             </div>
-            <div className='col-5' style={{position:"relative",top:"150px",left:"50px"}}><img src={tech2} width={300}></img></div>
+            <div className='col-5' style={{position:"relative",top:"150px",left:"50px"}}><img src={tech2} width={300} alt='tech'></img></div>
             <br></br><br></br>
             <div className='col-3' style={{position:"relative",top:"-350px",marginLeft:"800px"}}>
                 <h5><b>Brilliantly clean</b></h5>
@@ -83,23 +83,23 @@ const Technology = () => {
             <div className='container' style={{display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>
 
       <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic6} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic6} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Bottle Filter Straw</p>
           </Link>
            <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic7} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic7} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Bottle Filtered Cap</p>
           </Link>
            <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic8} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic8} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ pitcher filters</p>
           </Link>
           <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic2} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic2} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ pitcher filters</p>
           </Link>
           <Link style={{ position:"relative",textDecoration:"none",color:"black"}}>
-          <img src={pic4} width={200}style={{border:"1px solid black"}}></img>
+          <img src={pic4} width={200}style={{border:"1px solid black"}} alt='tech'></img>
           <p style={{padding:"10px"}}>LARQ Bottle Filtered Swig</p>
           </Link>
           </div>

@@ -1,5 +1,4 @@
 import pic1 from '../Images/black.png'
-
 import pic2 from '../Images/BDMB050A.png'
 import pic3 from '../Images/PAMB190A.png'
 import pic4 from '../Images/BNWLL068A.png'
@@ -25,7 +24,6 @@ import access15 from '../Images/access15.webp'
 import access16 from '../Images/access16.webp'
 import access17 from '../Images/access17.webp'
 import access18 from '../Images/BABHNNA-4.png'
-
 import { Link } from 'react-router-dom'
     const Bottles=()=>{
         const botle=[
